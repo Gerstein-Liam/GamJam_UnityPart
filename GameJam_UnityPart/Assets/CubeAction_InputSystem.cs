@@ -18,7 +18,7 @@ public class CubeAction_InputSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + (UserI_MoveHorizontal*RotationSpeed * Time.deltaTime), transform.rotation.eulerAngles.z + (UserI_MoveVertical * RotationSpeed * Time.deltaTime));
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x+(UserI_MoveVertical * RotationSpeed * Time.deltaTime), transform.rotation.eulerAngles.y + (UserI_MoveHorizontal*RotationSpeed * Time.deltaTime), transform.rotation.eulerAngles.z );
     }
 
     public void OnMoveEvent_GetMoveValue(InputAction.CallbackContext context)
