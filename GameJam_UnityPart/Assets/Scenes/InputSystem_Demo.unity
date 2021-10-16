@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83a9bb941053fe54bae7f9695ffa6cc3, type: 2}
+  - {fileID: 2100000, guid: f1774e2761d32b6408f99a82657062fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -417,7 +417,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 75e1e04706ee08a4f87396e6111bdd41, type: 2}
+  - {fileID: 2100000, guid: a692e2fca4df21b4b9de60b0cac3f6ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -725,7 +725,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 75e1e04706ee08a4f87396e6111bdd41, type: 2}
+  - {fileID: 2100000, guid: a692e2fca4df21b4b9de60b0cac3f6ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -917,7 +917,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83a9bb941053fe54bae7f9695ffa6cc3, type: 2}
+  - {fileID: 2100000, guid: f1774e2761d32b6408f99a82657062fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1072,7 +1072,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f05f3824a9e8ec14090e4ee8df60d5ae, type: 2}
+  - {fileID: 2100000, guid: 9aac340027bf91e40bb35caa6b42515a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1782651529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 023fe4b4393a44b418331866815735b8, type: 3}
+  m_Script: {fileID: 11500000, guid: f6898b9130a99ef4a8ede103ea24cb1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   RotationSpeed: 50
@@ -1318,6 +1318,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: f59faca4-821f-4ebe-96e3-19fe2c8dee4a
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5626677b-8c7c-451a-ae37-7c321df06571
+    m_ActionName: Player/JumpAction[/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f8f830b6-ac5e-4a92-9f14-5ae7d36e5dc1
+    m_ActionName: Player/RotateAction[/Keyboard/r]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1585,7 +1593,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f05f3824a9e8ec14090e4ee8df60d5ae, type: 2}
+  - {fileID: 2100000, guid: 9aac340027bf91e40bb35caa6b42515a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
