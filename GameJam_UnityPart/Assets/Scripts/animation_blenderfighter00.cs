@@ -26,11 +26,16 @@ public class animation_blenderfighter00 : MonoBehaviour
         //Access the Animation clip name
         m_ClipName = m_CurrentClipInfo[0].clip.name;
 
-        _Animator.SetBool("punch_condition", PunchCondition);
-        _Animator.SetBool("kick_condition", KickCondition);
-       
-        PunchCondition = false;
-        KickCondition = false;
+        if (m_CurrentClipInfo[0].clip.name != null) {
+
+
+            _Animator.SetBool("punch_condition", PunchCondition);
+            _Animator.SetBool("kick_condition", KickCondition);
+
+            PunchCondition = false;
+            KickCondition = false;
+        }
+     
     }
 
 
@@ -54,5 +59,7 @@ public class animation_blenderfighter00 : MonoBehaviour
         //Output the current Animation name and length to the screen
         GUI.Label(new Rect(0, 0, 200, 20), "Clip Name : " + m_ClipName);
         GUI.Label(new Rect(0, 30, 200, 20), "Clip Length : " + m_CurrentClipLength);
+
+
     }
 }
