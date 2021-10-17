@@ -54,12 +54,19 @@ public class animation_blenderfighter00 : MonoBehaviour
         KickCondition = true;
 
     }
+
+    [GUITarget(1)]
     void OnGUI()
     {
         //Output the current Animation name and length to the screen
-
+  
+       
+        
+        
         GUI.Box(new Rect(0, 0, 200, 1000), "Animation Debugger");
         GUI.Label(new Rect(0, 30, 200, 20), "Clip Name : " + m_ClipName);
-    //https://docs.unity3d.com/Manual/gui-Controls.html
+        //https://docs.unity3d.com/Manual/gui-Controls.html
+        //https://docs.huihoo.com/unity/5.4/Documentation/en/ScriptReference/GUITargetAttribute-ctor.html
+
     }
 }
