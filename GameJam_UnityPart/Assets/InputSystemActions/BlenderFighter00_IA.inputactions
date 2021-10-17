@@ -176,11 +176,33 @@
                 },
                 {
                     "name": "",
+                    "id": "3242cd5a-e7f0-4e6c-ab77-489fdff8efe9",
+                    "path": "<DualShockGamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "e1043056-ae9a-48c5-9ca0-a91097f1d2be",
                     "path": "<Keyboard>/k",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
+                    "action": "Kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef5e2356-cdc6-4159-982c-515f0e2a25fd",
+                    "path": "<DualShockGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "Kick",
                     "isComposite": false,
                     "isPartOfComposite": false
